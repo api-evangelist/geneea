@@ -1,0 +1,486 @@
+{
+    "id": "9e72f2052a4a9674be5d79dd6dda6fc0",
+    "name": "Geneea Natural Language Processing",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "1f47a36ec4bedbbff4f41860e5cbf020",
+            "name": "Get Account",
+            "url": "httpsapi.geneea.com\/\/account",
+            "description": "Information about current user account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        },
+        {
+            "id": "79f6776ad8e96d0a654cf2615ca44bb6",
+            "name": "Get Correction",
+            "url": "httpsapi.geneea.com\/\/s1\/correction",
+            "description": "Performs text correction (diacritization) on the given document.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "raw document text",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "url",
+                    "description": "document URL",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "extractor",
+                    "description": "document extractor",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "language",
+                    "description": "document language",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "returnTextInfo",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        },
+        {
+            "id": "166bc76e9f22973278fe45e405856b5b",
+            "name": "Post Correction",
+            "url": "httpsapi.geneea.com\/\/s1\/correction",
+            "description": "Performs text correction (diacritization) on the given document.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "request",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        },
+        {
+            "id": "6997c22e14bbe47c449fc37f15e544ac",
+            "name": "Get Entities",
+            "url": "httpsapi.geneea.com\/\/s1\/entities",
+            "description": "Performs named-entity recognition on the given document.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "raw document text",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "url",
+                    "description": "document URL",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "extractor",
+                    "description": "document extractor",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "language",
+                    "description": "document language",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "returnTextInfo",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        },
+        {
+            "id": "b1719c4b48e082555e9170bc11cb108c",
+            "name": "Post Entities",
+            "url": "httpsapi.geneea.com\/\/s1\/entities",
+            "description": "Performs named-entity recognition on the given document.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "request",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        },
+        {
+            "id": "3050346a5f746585c801e11cee3a3d6e",
+            "name": "Get Lemmatize",
+            "url": "httpsapi.geneea.com\/\/s1\/lemmatize",
+            "description": "Performs lemmatization on the given document.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "raw document text",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "url",
+                    "description": "document URL",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "extractor",
+                    "description": "document extractor",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "language",
+                    "description": "document language",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "returnTextInfo",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        },
+        {
+            "id": "6747de2607cd02f9b1a7224a65b4648d",
+            "name": "Post Lemmatize",
+            "url": "httpsapi.geneea.com\/\/s1\/lemmatize",
+            "description": "Performs lemmatization on the given document.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "request",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        },
+        {
+            "id": "040070b9bd0d69e963a141abc53f71b6",
+            "name": "Get Sentiment",
+            "url": "httpsapi.geneea.com\/\/s1\/sentiment",
+            "description": "Performs sentiment analysis on the given document.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "raw document text",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "url",
+                    "description": "document URL",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "extractor",
+                    "description": "document extractor",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "language",
+                    "description": "document language",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "returnTextInfo",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        },
+        {
+            "id": "18c3ba06460ae01ea16e659ec7aa5701",
+            "name": "Post Sentiment",
+            "url": "httpsapi.geneea.com\/\/s1\/sentiment",
+            "description": "Performs sentiment analysis on the given document.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "request",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        },
+        {
+            "id": "27b62c245c748d3247391d0187769720",
+            "name": "Get Topic",
+            "url": "httpsapi.geneea.com\/\/s1\/topic",
+            "description": "Performs topic detection on the given document.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "raw document text",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "url",
+                    "description": "document URL",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "extractor",
+                    "description": "document extractor",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "language",
+                    "description": "document language",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "returnTextInfo",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        },
+        {
+            "id": "1fa98e9d13ec6b9c29f10178be5416ec",
+            "name": "Post Topic",
+            "url": "httpsapi.geneea.com\/\/s1\/topic",
+            "description": "Performs topic detection on the given document.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "request",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "rawModeData": ""
+        }
+    ]
+}
