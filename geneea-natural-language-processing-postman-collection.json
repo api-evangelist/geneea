@@ -1,5 +1,5 @@
 {
-    "id": "9e72f2052a4a9674be5d79dd6dda6fc0",
+    "id": "5869c3216bc5d557d04b3a3eeb1164be",
     "name": "Geneea Natural Language Processing",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "1f47a36ec4bedbbff4f41860e5cbf020",
+            "id": "00d7821579911a06fbbf15780b8e40ca",
             "name": "Get Account",
             "url": "httpsapi.geneea.com\/\/account",
             "description": "Information about current user account.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         },
         {
-            "id": "79f6776ad8e96d0a654cf2615ca44bb6",
+            "id": "5498f5e696cdc49a8057e7ce30ab5f36",
             "name": "Get Correction",
             "url": "httpsapi.geneea.com\/\/s1\/correction",
             "description": "Performs text correction (diacritization) on the given document.",
@@ -88,11 +88,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         },
         {
-            "id": "166bc76e9f22973278fe45e405856b5b",
+            "id": "c5e51a809ab96b5d3346626a283e2788",
             "name": "Post Correction",
             "url": "httpsapi.geneea.com\/\/s1\/correction",
             "description": "Performs text correction (diacritization) on the given document.",
@@ -119,11 +119,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         },
         {
-            "id": "6997c22e14bbe47c449fc37f15e544ac",
+            "id": "03353b15759e45a64cb768a7860886f1",
             "name": "Get Entities",
             "url": "httpsapi.geneea.com\/\/s1\/entities",
             "description": "Performs named-entity recognition on the given document.",
@@ -178,11 +178,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         },
         {
-            "id": "b1719c4b48e082555e9170bc11cb108c",
+            "id": "2fbaac6dd38e347056c2391d7230c61a",
             "name": "Post Entities",
             "url": "httpsapi.geneea.com\/\/s1\/entities",
             "description": "Performs named-entity recognition on the given document.",
@@ -209,11 +209,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         },
         {
-            "id": "3050346a5f746585c801e11cee3a3d6e",
+            "id": "0deecc8cd23beb15cdc526242adac667",
             "name": "Get Lemmatize",
             "url": "httpsapi.geneea.com\/\/s1\/lemmatize",
             "description": "Performs lemmatization on the given document.",
@@ -268,11 +268,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         },
         {
-            "id": "6747de2607cd02f9b1a7224a65b4648d",
+            "id": "3da7f8603f5b4387f6fd6e248d21191b",
             "name": "Post Lemmatize",
             "url": "httpsapi.geneea.com\/\/s1\/lemmatize",
             "description": "Performs lemmatization on the given document.",
@@ -299,11 +299,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         },
         {
-            "id": "040070b9bd0d69e963a141abc53f71b6",
+            "id": "1405c455a8c9c4b0157412215815fea9",
             "name": "Get Sentiment",
             "url": "httpsapi.geneea.com\/\/s1\/sentiment",
             "description": "Performs sentiment analysis on the given document.",
@@ -358,11 +358,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         },
         {
-            "id": "18c3ba06460ae01ea16e659ec7aa5701",
+            "id": "3440170ef0bbdab771021ec8133debe2",
             "name": "Post Sentiment",
             "url": "httpsapi.geneea.com\/\/s1\/sentiment",
             "description": "Performs sentiment analysis on the given document.",
@@ -389,11 +389,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         },
         {
-            "id": "27b62c245c748d3247391d0187769720",
+            "id": "952d5a7aefe640cd753ce6855b37fb8c",
             "name": "Get Topic",
             "url": "httpsapi.geneea.com\/\/s1\/topic",
             "description": "Performs topic detection on the given document.",
@@ -448,11 +448,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         },
         {
-            "id": "1fa98e9d13ec6b9c29f10178be5416ec",
+            "id": "dfea3899aab2904858c8fe848853792a",
             "name": "Post Topic",
             "url": "httpsapi.geneea.com\/\/s1\/topic",
             "description": "Performs topic detection on the given document.",
@@ -479,7 +479,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9e72f2052a4a9674be5d79dd6dda6fc0",
+            "collectionId": "5869c3216bc5d557d04b3a3eeb1164be",
             "rawModeData": ""
         }
     ]
